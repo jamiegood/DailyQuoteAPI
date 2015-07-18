@@ -7,7 +7,10 @@ var fs = require('fs');
 var express = require('express');
 var mongoose = require('mongoose');
 var passport = require('passport');
-var config = require('config');
+console.log('hello cruel world');
+//var config = require('./config/config.js');
+var config = require('./config/config.js');
+console.log(config);
 
 var app = express();
 var port = process.env.PORT || 3000;
