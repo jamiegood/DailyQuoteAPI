@@ -10,7 +10,7 @@ A boilerplate application for building web apps using express, mongoose and pass
 Read the [wiki](https://github.com/madhums/node-express-mongoose/wiki) to understand how the application is structured.
 
 ## Installation and Usage
-    
+
     $ git clone https://github.com/madhums/node-express-mongoose.git
     $ cd node-express-mongoose
     $ npm install
@@ -23,3 +23,24 @@ Checkout the [apps that are built using this approach](https://github.com/madhum
 ## License
 
 MIT
+
+
+
+curl -d '{"good_food":["pizza"]}' -H 'content-type:application/json' "http://localhost:3000/user"
+
+
+
+example:
+
+{
+  "received": "2015-03-18T17:21:42.571286",
+  "user_id": 1337,
+  "name": "Test User",
+  "app_id": "YOUR_APP_ID",
+  "_push": {
+    "ios_tokens": [
+      "111", "222", "333", "444"
+    ]
+  },
+  "message": "I come from planet Ion"
+}

@@ -10,9 +10,10 @@ var home = require('home');
  * Expose
  */
 
-module.exports = function (app, passport) {
+module.exports = function (app, passport, User) {
 
   app.get('/', home.index);
+  app.post('/user', home.user);
 
   /**
    * Error handling
