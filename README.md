@@ -27,6 +27,11 @@ MIT
 
 
 curl -d '{"good_food":["pizza"]}' -H 'content-type:application/json' "http://localhost:3000/user"
+curl -d '{"good_food":["pizza"]}' -H 'content-type:application/json' "http://dailyquoteapi.herokuapp.com/users"
+
+
+this is a simple test.
+curl -d '{"name":"jamie"}' -H 'content-type:application/json' "http://dailyquoteapi.herokuapp.com/user"
 
 
 
