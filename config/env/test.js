@@ -5,6 +5,7 @@
 
 module.exports = {
   db: 'mongodb://localhost/your_project_test',
+  pushURL: 'https://push.ionic.io/api/v1/push',  
   facebook: {
     clientID: 'APP_ID',
     clientSecret: 'SECRET',

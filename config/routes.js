@@ -14,6 +14,9 @@ module.exports = function (app, passport, User) {
 
   app.get('/', home.index);
   app.post('/user', home.user);
+  app.get('/pusher', home.pusher);
+  app.get('/quotes', home.quotes);
+  app.get('/randomquotes', home.randomquote);
 
   /**
    * Error handling

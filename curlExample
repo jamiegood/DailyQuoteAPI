@@ -1,0 +1,6 @@
+curl -u e9da6604c2f916583c8035aa1a89cec0ec03a17bdfdf72ae:
+-H "Content-Type: application/json"
+-H "X-Ionic-Application-Id: eeaac208" 
+
+https://push.ionic.io/api/v1/push
+-d '{"tokens":["DEVICE_TOKEN"],"notification":{"alert":"I come from planet Ion."}}'
